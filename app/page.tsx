@@ -21,12 +21,12 @@ export default function Home() {
             for a dip that never seems to load.
           </p>
           <div className="hero-actions">
-            <a className="pill" href="https://x.com/404CatCoin" target="_blank" rel="noreferrer">Join the chaos ↗</a>
+            <a className="pill" href="https://pump.fun/coin/4PATCCTpkLTJjSnjQ75emHEA3bfd3zBnpWzNHfm3pump" target="_blank" rel="noreferrer">Buy $404 ↗</a>
             <Link className="ghost" href="/generator">Make a meme</Link>
           </div>
           <div className="contract">
             <span>CONTRACT</span>
-            <code>Coming after launch</code>
+            <code>4PATCCTpkLTJjSnjQ75emHEA3bfd3zBnpWzNHfm3pump</code>
           </div>
         </div>
 
