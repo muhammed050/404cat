@@ -8,7 +8,7 @@ export function SiteNav() {
           <span className="brand404">404</span><span>CAT</span>
         </Link>
         <div className="nav-links">
-          <Link href="/generator">Meme Lab</Link>
+          <Link href="/generator">Meme Studio</Link>
           <Link href="/graveyard">Graveyard</Link>
           <Link href="/telegram">Telegram</Link>
           <Link href="/about">About</Link>

@@ -3,19 +3,21 @@ import { MemeMaker } from "./MemeMaker";
 
 export const metadata = {
   title: "Meme Studio",
-  description: "Create polished 404 CAT memes with templates, colors and instant PNG export.",
+  description: "Create 404 CAT memes from your own image, choose social formats, and export instantly.",
 };
 
 export default function Generator() {
   return (
     <main>
       <SiteNav/>
-      <section className="shell inner-page">
-        <p className="kicker">404 MEME STUDIO</p>
-        <h1>Make the mistake.<br/><span>Turn it into a meme.</span></h1>
-        <p className="lead narrow">
-          Pick a template, customize the joke, change the vibe, and export a polished 1080×1080 404 CAT meme instantly.
-        </p>
+      <section className="shell studio-page">
+        <div className="studio-intro">
+          <div>
+            <p className="kicker">404 MEME STUDIO</p>
+            <h1>Make a meme people actually want to post.</h1>
+          </div>
+          <p>Upload a photo or start from a 404 CAT template. Edit the joke, choose a social format, preview the exact output, then export it instantly.</p>
+        </div>
         <MemeMaker/>
       </section>
     </main>
