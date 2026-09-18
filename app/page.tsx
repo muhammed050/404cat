@@ -84,8 +84,8 @@ export default function Home() {
         <div>
           <p className="kicker">COMMUNITY TOOL</p>
           <h2>Turn your bad trade into a <span>good meme.</span></h2>
-          <p>Use the built-in Meme Lab to create a 404 CAT poster in seconds. No login needed.</p>
-          <Link className="pill" href="/generator">Open Meme Lab →</Link>
+          <p>Use the upgraded Meme Studio to remix templates, colors and 404 CAT reactions, then export a share-ready square meme in seconds.</p>
+          <Link className="pill" href="/generator">Open Meme Studio →</Link>
         </div>
         <div className="mini-poster">
           <span>404 CAT</span>
