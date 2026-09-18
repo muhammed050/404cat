@@ -22,6 +22,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="pill" href="https://pump.fun/coin/4PATCCTpkLTJjSnjQ75emHEA3bfd3zBnpWzNHfm3pump" target="_blank" rel="noreferrer">Buy $404 ↗</a>
+            <a className="ghost" href="https://join.pump.fun/HSag/m01ioex9" target="_blank" rel="noreferrer">Join Pump.fun ↗</a>
             <Link className="ghost" href="/generator">Make a meme</Link>
           </div>
           <div className="contract">
