@@ -10,6 +10,7 @@ export function SiteNav() {
         <div className="nav-links">
           <Link href="/generator">Meme Lab</Link>
           <Link href="/graveyard">Graveyard</Link>
+          <Link href="/telegram">Telegram</Link>
           <Link href="/about">About</Link>
         </div>
         <a className="pill small" href="https://x.com/404CatCoin" target="_blank" rel="noreferrer">Follow on X</a>
