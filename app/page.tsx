@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CatMark } from "@/components/CatMark";
 import { SiteNav } from "@/components/SiteNav";
-import { CopyContract } from "@/components/CopyContract";
+import { CopyContract } from "@/components/CopyContract";\nimport { TokenMarket } from "@/components/TokenMarket";
 
 const CONTRACT="4PATCCTpkLTJjSnjQ75emHEA3bfd3zBnpWzNHfm3pump";
 const PUMP="https://pump.fun/coin/4PATCCTpkLTJjSnjQ75emHEA3bfd3zBnpWzNHfm3pump";
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="ticker-strip"><div>LIVE NOW ✦ $404 ✦ MEMES ✦ CHAOS ✦ GOOD VIBES ✦ DIP NOT FOUND ✦ </div></section>
+      <section className="ticker-strip"><div>LIVE NOW ✦ $404 ✦ MEMES ✦ CHAOS ✦ GOOD VIBES ✦ DIP NOT FOUND ✦ </div></section>\n\n      <section className="shell market-section"><TokenMarket /></section>
 
       <section className="shell section">
         <div className="section-head">
