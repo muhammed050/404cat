@@ -6,7 +6,7 @@ export const metadata = {
   description: "Join the official 404 CAT Telegram community.",
 };
 
-const telegramUrl = process.env.NEXT_PUBLIC_TELEGRAM_URL || "";
+const telegramUrl = process.env.NEXT_PUBLIC_TELEGRAM_URL || "https://t.me/The404Cat";
 
 export default function TelegramPage() {
   return (
